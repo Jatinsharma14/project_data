@@ -1,0 +1,350 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box; 
+}
+.topmost{
+	background-color: black;
+	color: grey;
+	padding: 2%;
+	position: relative;
+}
+
+.topmost:hover{
+	color: white;
+}
+.top1{
+	float: right;
+	margin-right: 5%;
+	font-size: 20px;
+	padding: .4%;
+	background-color: orange;
+	top: 2px;
+	margin-top: -.5%;
+}
+
+.top1 input{
+	    border-bottom-left-radius: 18px;
+	    border-top-left-radius: 18px;
+}
+
+.top1 i{
+	background-color: #ff6a00; padding: 6.5px;
+	border-bottom-right-radius: 18px;
+	    border-top-right-radius: 18px;
+	    margin-left: -5px;
+}
+/* link work or site*/
+.link{
+	border: 1px solid;
+	width: 100%;
+	padding: 1%;
+}
+/*.link h2{
+    text-align: center;
+    
+	
+}
+.link h2:hover{
+border: solid red 4px;
+}*/
+
+#h2{
+	margin-left: 37%;
+	margin-top: -35px;
+	width: 20%; 
+}
+#h2:hover{
+	border: solid red;
+}
+
+
+.linkL a{
+	text-decoration: none;
+	color: black;
+	font-size: 22px;
+	margin-left: 6%;
+	font-weight: bold;
+}
+
+.linkL a:hover {
+	color: red;
+	transform: rotateX(360deg);
+	transition: all .5s;
+	text-decoration: none;
+}
+
+
+
+.linkR {
+	text-decoration: none;
+	top: 15%;
+	right: 0%;
+	position: absolute;
+	color: black;
+	width: 50%;
+}
+
+.linkR a{
+	text-decoration: none;
+	 color: black;
+	 margin-left: 18%;
+	 margin-top: 1px;
+	 font-size: 22px;
+	 font-weight: bold; 
+}
+
+.linkR a:hover {
+	color: red;
+	transform: rotateX(360deg);
+	transition: all .5s;
+	text-decoration: none;
+}
+/*largest image*/
+.largest{
+	background-image: url(images/banner2.jpg);
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+.inner{
+	text-align: center;
+	color: white;
+	padding: 10%;
+	background-color: rgba(249, 0, 0, 0.21);
+}
+
+.inner h3{
+	padding-top: 5%;
+	font-size: 48px;
+
+}
+
+.inner h4{
+     font-size: 30px;
+     padding-top: 5%;
+}
+.inner button{
+	background-color: orange;
+	font-size: 20px;
+	margin-top: 5%;
+}
+/*arrows*/
+.arrows img{
+	padding: 3%; 
+
+}
+/*aboutus section*/
+.abts{
+	margin-top: 10%;
+	margin-left: 2%;
+}
+#innerabts p{
+	color: red;
+}
+
+#innerabts #ptext{
+	font-size: 13px;
+	color: black;
+}
+
+.rightimg{
+	background-image: url("images/ab.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin-right: 14%;
+}
+
+.rightimg img{
+padding-left: 58%;
+padding-bottom: 40%;
+margin-top: -12%;
+
+
+}
+
+/*section*/
+.section{
+	background-image: url("images/banner1.jpg");
+	color: white;
+	text-align: center;
+
+}
+
+.section h4{
+color: orange;
+}
+.serv{
+	display: inline-block;
+	padding:2% 8% 2% 8%;
+}
+
+.serv img{
+	border: solid white;
+	padding: 10%;
+	border-radius: 50%;
+}
+.serv h5{
+	margin-top: 30%;
+	padding: 4%;
+	color: #0eead6;
+}
+
+
+/*largest gallery*/
+
+
+.lg{
+	text-align: center;
+	margin-top: 2%;
+}
+.imgA{
+	margin-left: 2%;
+	margin-top: 2%;
+	display: inline-block;
+	position: relative;
+	overflow: hidden;
+
+}
+.fw{
+	position: absolute;
+	text-align: center;
+	padding: 25% 20% 25% 20%;
+	
+	color: white;
+	top: 100%;
+	background-color: rgba(0,0,0,.7);
+	transition: all .6s;
+}
+
+.fw h2{
+	color: white;
+	background-color: orange;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+.imgA:hover .fw{
+	
+	top: 0%;
+}
+
+
+/*slider work*/
+
+.sliding-images{
+	text-align: center;
+	margin-top: 4%;
+}
+.sliding-images h5{
+	color: red;
+}
+
+.box {
+	margin-top: 2%;
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+	border:2px solid;
+}
+.box-content {
+	width: 151%;
+	position: relative;
+	left: 0%;
+	transition: all .3s;
+	animation: animate 10s;
+	animation-fill-mode: forwards;
+	animation-iteration-count: infinite;
+	animation-play-state: running;
+	
+}
+.box-content:hover {
+	animation-play-state: paused;
+}
+@keyframes animate {
+	0% { left: 0%; }
+	25% { left: -30%; }
+	50% { left: -50%; }
+/*	75% { left: -90%; }
+	100% { left: -151%; }*/
+}
+/*contact*/
+
+
+
+.contact{
+	color: black;
+	text-align: center;
+	padding:5%;
+	margin-top: 0%;
+}
+#cont{
+	padding: 1%;
+}
+.contbar{
+    border: 2px solid;
+    margin-top: 3%;
+    margin-bottom: 5%;
+	text-align: center; 
+	font-weight: bold;
+	margin-top: 1%; 
+	padding: 2%;
+
+}
+#cont input{
+	background-color: #f9e8a961;
+
+}
+#cont textarea{
+	width: 100%;
+	height: 90%;
+	background-color: #f9e8a961;
+}
+#cont button{
+	background-color: black;
+	color: white;
+	padding: .5% 4% .5% 4%;
+	float: right;
+	margin-bottom: 20%;
+}
+.bottom{
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding: .5%;
+	margin-top: 2%;
+}
+/*locate*/
+.locate{
+	text-align: center;
+}
+
+.locate h5{
+	color: red;
+}
+.locate iframe{
+	width: 100%;
+}
+
+
+.icon i{
+	font-size: 20px;
+	padding: 25%;
+	background-color: red;
+	border-radius: 50%;
+}
+.icon{
+	position: absolute;
+	margin-left: 20%;
+	margin-top: 0%;
+
+}
+#iconA{
+	margin-bottom: 2%;
+	margin-top: 2%;
+}
+
+.icon:hover i{
+	background-color: white;
+	color: red;
+	transition: all .5s;
+}

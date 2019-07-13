@@ -1,0 +1,91 @@
+@media only screen and (max-width: 360px){
+.topmost{
+	width: 150%;
+}
+.link{
+	display: none;
+}
+.top1{
+	width: 52%;
+	margin-top: 5px;
+	margin-right: 50%;
+	padding: 0%;
+	margin-top: 8px;
+
+}
+
+
+
+.largest{
+	width: 150%;
+	margin-top: 10%;
+}
+.fw{
+	width: 75%;
+	margin-left: 13%;
+}
+#innerabts{
+	width: 156%;
+	margin-left: 15%;
+	font-size: 10px;
+	margin-bottom: 9%;
+	text-align: justify;
+
+}
+.inner h3{
+	font-size: 18px;
+}
+.inner h4{
+	font-size: 17px;
+}
+.rightimg{
+	width: 120%; 
+}
+.rightimg img{
+	width: 120%;
+	margin-top: -14%;
+}
+.section{
+	width: 150%;
+	margin-top: 5%;
+}
+.imgA{
+	width: 148%;
+}
+.box-content img{
+	width: 100px;
+}
+.box-content{
+text-align: center;
+}
+.box{
+	margin-left: 25%;
+}
+.contact{
+	text-align: center;
+	width: 152%;
+}
+#cont textarea{
+	width: 65%;
+	margin-left: 7%;
+}
+#cont button{
+	margin-right: 14%;
+}
+.locate{
+	width: 151%;
+}
+.bottom{
+	width: 150%;
+}
+h5{
+	font-size: 16px;
+}
+
+.box-content img{
+	height: 150px;
+}
+
+
+
+}
